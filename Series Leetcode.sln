@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "88. Merge Sorted Array", "8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21. Merge Two sorted lists", "21. Merge Two sorted lists\21. Merge Two sorted lists.csproj", "{7E560AB3-C065-4382-939F-4CB67848D161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Remove Duplicates from Sorted array", "26. Remove Duplicates from Sorted array\26. Remove Duplicates from Sorted array.csproj", "{CD0A322E-676B-4390-B9F7-A77D4225A713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26. Remove Duplicates from Sorted array", "26. Remove Duplicates from Sorted array\26. Remove Duplicates from Sorted array.csproj", "{CD0A322E-676B-4390-B9F7-A77D4225A713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83. Remove Duplicates from Sorted list", "83. Remove Duplicates from Sorted list\83. Remove Duplicates from Sorted list.csproj", "{E203B426-ECD8-431A-8F8E-6B389F8C970A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "83. Remove Duplicates from Sorted list", "83. Remove Duplicates from Sorted list\83. Remove Duplicates from Sorted list.csproj", "{E203B426-ECD8-431A-8F8E-6B389F8C970A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add two Numbers", "2. Add two Numbers\2. Add two Numbers.csproj", "{13176D8B-E969-48D2-84C8-5A78EA254D4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{E203B426-ECD8-431A-8F8E-6B389F8C970A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E203B426-ECD8-431A-8F8E-6B389F8C970A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E203B426-ECD8-431A-8F8E-6B389F8C970A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
