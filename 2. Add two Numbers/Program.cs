@@ -56,18 +56,6 @@
             }
             Console.WriteLine("null");
         }
-
-        private ListNode Reverse(ListNode l)
-        {
-            if (l == null || l.next == null)
-                return l;
-            ListNode rest = Reverse(l.next);
-            l.next.next = l;
-
-            l.next = null;
-
-            return rest;
-        }
     }
 
     class MainClass
