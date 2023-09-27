@@ -64,7 +64,7 @@
         {
             Solution solution = new Solution();
 
-            ListNode l1 = new ListNode(9, new ListNode(9, new ListNode(9 , new ListNode(9, new ListNode(9, new ListNode(9))))));
+            ListNode l1 = new ListNode(9, new ListNode(9, new ListNode(9 , new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
             ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9)));
 
             Console.WriteLine("Original List 1:");
