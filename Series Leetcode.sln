@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26. Remove Duplicates from 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "83. Remove Duplicates from Sorted list", "83. Remove Duplicates from Sorted list\83. Remove Duplicates from Sorted list.csproj", "{E203B426-ECD8-431A-8F8E-6B389F8C970A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add two Numbers", "2. Add two Numbers\2. Add two Numbers.csproj", "{13176D8B-E969-48D2-84C8-5A78EA254D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Add two Numbers", "2. Add two Numbers\2. Add two Numbers.csproj", "{13176D8B-E969-48D2-84C8-5A78EA254D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13176D8B-E969-48D2-84C8-5A78EA254D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
