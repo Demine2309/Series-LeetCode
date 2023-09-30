@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "83. Remove Duplicates from 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Add two Numbers", "2. Add two Numbers\2. Add two Numbers.csproj", "{13176D8B-E969-48D2-84C8-5A78EA254D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{07DD0F01-9341-48F5-BC0A-C85D6B6DAC2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Longest Palindromic Substring", "5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{FB2544BB-DAFE-4A83-B0D6-E2D31733F059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Longest Palindromic Substring", "5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{FB2544BB-DAFE-4A83-B0D6-E2D31733F059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Zigzag Conversion", "6. Zigzag Conversion\6. Zigzag Conversion.csproj", "{D176E999-C668-4E6A-83B3-14CCB77798CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{FB2544BB-DAFE-4A83-B0D6-E2D31733F059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2544BB-DAFE-4A83-B0D6-E2D31733F059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2544BB-DAFE-4A83-B0D6-E2D31733F059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D176E999-C668-4E6A-83B3-14CCB77798CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D176E999-C668-4E6A-83B3-14CCB77798CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D176E999-C668-4E6A-83B3-14CCB77798CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D176E999-C668-4E6A-83B3-14CCB77798CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
