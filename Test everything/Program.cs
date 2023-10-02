@@ -1,11 +1,9 @@
 ﻿class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        int sum = 7;
-
-        int a = sum / 2;
-
-        Console.WriteLine(a);
+        List<int> danhSach = new List<int> { 1, 2, 3, 4, 5 };
+        int tong = danhSach.Sum();
+        Console.WriteLine("Tổng của danh sách là: " + tong);
     }
 }
