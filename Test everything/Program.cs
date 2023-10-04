@@ -2,8 +2,11 @@
 {
     static void Main()
     {
-        List<int> danhSach = new List<int> { 1, 2, 3, 4, 5 };
-        int tong = danhSach.Sum();
-        Console.WriteLine("Tổng của danh sách là: " + tong);
+        string s = "+2234";
+        int result;
+
+        result = Int32.Parse(s);
+
+        Console.WriteLine(result);
     }
 }

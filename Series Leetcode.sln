@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Zigzag Conversion", "6. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Reverse Integer", "7. Reverse Integer\7. Reverse Integer.csproj", "{D9FB1B54-DE94-426D-9351-9B96A9A44B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. String to Integer (atoi)", "8. String to Integer (atoi)\8. String to Integer (atoi).csproj", "{4EDC6D4D-1DCC-439C-81E7-6805CC879ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. String to Integer (atoi)", "8. String to Integer (atoi)\8. String to Integer (atoi).csproj", "{4EDC6D4D-1DCC-439C-81E7-6805CC879ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Regular Expression Matching", "10. Regular Expression Matching\10. Regular Expression Matching.csproj", "{3F741814-25DB-4F12-8A2C-96497FF816B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{4EDC6D4D-1DCC-439C-81E7-6805CC879ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EDC6D4D-1DCC-439C-81E7-6805CC879ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EDC6D4D-1DCC-439C-81E7-6805CC879ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F741814-25DB-4F12-8A2C-96497FF816B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F741814-25DB-4F12-8A2C-96497FF816B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F741814-25DB-4F12-8A2C-96497FF816B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F741814-25DB-4F12-8A2C-96497FF816B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

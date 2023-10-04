@@ -1,10 +1,43 @@
-﻿namespace SeriesLeetCode
+﻿using System.Text;
+
+namespace SeriesLeetCode
 {
     public class Solution
     {
-        public int MyAtoi(string str)
+        public int MyAtoi(string s)
         {
+            if(string.IsNullOrEmpty(s)) return 0;
 
+            int index = 0;
+            int sign = 1;
+            long result = 0;
+
+            while(index < s.Length && s[index] == ' ')
+            {
+                index++;
+            }
+
+            if(index < s.Length && (s[index] == '-' || s[index] == '+'))
+            {
+                sign = s[index] == '-' ? -1 : 1;
+                index++;
+            }
+
+            while (index < s.Length && char.IsDigit(s[index]))
+            {
+                result = result * 10 + (s[index] - '0');
+
+                if(result * sign > int.MaxValue)
+                    return int.MaxValue;
+                else if( result * sign < int.MinValue)
+                    return int.MinValue;
+
+                index++;
+            }
+
+            result *= sign;
+
+            return (int)result;
         }
     }
 
@@ -12,9 +45,11 @@
     {
         static void Main(string[] args)
         {
-            Solution s = new Solution();
+            Solution solution = new Solution();
 
-
+            string s = "-   42";
+            int result = solution.MyAtoi(s);
+            Console.WriteLine(result);
         }
     }
 }
