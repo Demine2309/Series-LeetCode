@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. String to Integer (atoi)
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Regular Expression Matching", "10. Regular Expression Matching\10. Regular Expression Matching.csproj", "{3F741814-25DB-4F12-8A2C-96497FF816B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{B78ED5C9-C9DD-49D4-995E-73BCCEFCFB76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{B78ED5C9-C9DD-49D4-995E-73BCCEFCFB76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Integer to Roman", "12. Integer to Roman\12. Integer to Roman.csproj", "{79880ACD-B7A7-4CF4-BC84-92C63670B997}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{B78ED5C9-C9DD-49D4-995E-73BCCEFCFB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B78ED5C9-C9DD-49D4-995E-73BCCEFCFB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B78ED5C9-C9DD-49D4-995E-73BCCEFCFB76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79880ACD-B7A7-4CF4-BC84-92C63670B997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79880ACD-B7A7-4CF4-BC84-92C63670B997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79880ACD-B7A7-4CF4-BC84-92C63670B997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79880ACD-B7A7-4CF4-BC84-92C63670B997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
