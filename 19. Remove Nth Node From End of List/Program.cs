@@ -31,7 +31,7 @@ namespace SeriesLeetCode
                 }
                 else
                 {
-                    if (i == m - 1 && temp != null)
+                    if (i == m - 1 && temp != null) 
                     {
                         prev.next = temp.next;
                         temp = null;
