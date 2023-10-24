@@ -63,7 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16. 3Sum Closest", "16. 3Su
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17. Letter Combinations of a Phone Number", "17. Letter Combinations of a Phone Number\17. Letter Combinations of a Phone Number.csproj", "{BF311212-3FE9-4864-9C72-4340DB85709D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Remove Nth Node From End of List", "19. Remove Nth Node From End of List\19. Remove Nth Node From End of List.csproj", "{003BDE9C-8CA0-415B-9A08-5B132C54B0E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19. Remove Nth Node From End of List", "19. Remove Nth Node From End of List\19. Remove Nth Node From End of List.csproj", "{003BDE9C-8CA0-415B-9A08-5B132C54B0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. Generate parentheses", "22. Generate parentheses\22. Generate parentheses.csproj", "{AADC5525-A473-4AF9-86FB-3FF3A4F585F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parenthese", "20. Valid Parenthese\20. Valid Parenthese.csproj", "{A2D8D35B-B873-4C29-97A6-70FC25AAE49D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +199,14 @@ Global
 		{003BDE9C-8CA0-415B-9A08-5B132C54B0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003BDE9C-8CA0-415B-9A08-5B132C54B0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{003BDE9C-8CA0-415B-9A08-5B132C54B0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADC5525-A473-4AF9-86FB-3FF3A4F585F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADC5525-A473-4AF9-86FB-3FF3A4F585F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADC5525-A473-4AF9-86FB-3FF3A4F585F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADC5525-A473-4AF9-86FB-3FF3A4F585F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D8D35B-B873-4C29-97A6-70FC25AAE49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D8D35B-B873-4C29-97A6-70FC25AAE49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D8D35B-B873-4C29-97A6-70FC25AAE49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D8D35B-B873-4C29-97A6-70FC25AAE49D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
