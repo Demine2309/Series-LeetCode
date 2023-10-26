@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace SeriesLeetCode
+﻿namespace SeriesLeetCode
 {
     public class ListNode
     {
