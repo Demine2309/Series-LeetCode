@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22. Generate parentheses", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20. Valid Parenthese", "20. Valid Parenthese\20. Valid Parenthese.csproj", "{A2D8D35B-B873-4C29-97A6-70FC25AAE49D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. Merge k Sorted List", "23. Merge k Sorted List\23. Merge k Sorted List.csproj", "{BB6EC2EC-BEAD-4E3C-8A30-F1243A3A56EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23. Merge k Sorted List", "23. Merge k Sorted List\23. Merge k Sorted List.csproj", "{BB6EC2EC-BEAD-4E3C-8A30-F1243A3A56EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. Swap nodes in Pairs", "24. Swap nodes in Pairs\24. Swap nodes in Pairs.csproj", "{4DE89C66-CB68-4925-ABAF-A9E461B3F3E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{BB6EC2EC-BEAD-4E3C-8A30-F1243A3A56EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6EC2EC-BEAD-4E3C-8A30-F1243A3A56EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6EC2EC-BEAD-4E3C-8A30-F1243A3A56EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE89C66-CB68-4925-ABAF-A9E461B3F3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE89C66-CB68-4925-ABAF-A9E461B3F3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE89C66-CB68-4925-ABAF-A9E461B3F3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE89C66-CB68-4925-ABAF-A9E461B3F3E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
