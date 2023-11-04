@@ -4,7 +4,28 @@
     {
         public int RemoveDuplicates(int[] nums)
         {
+            for(int i = 0; i < nums.Length - 1; i++)
+            {
+                for(int j = i + 1; j < nums.Length; j++)
+                {
+                    if (nums[j] > nums[i])
+                    {
+                        Swap(j, i + 1, nums);
+                        break;
+                    }
+                }
 
+                if()
+            }
+
+
+        }
+
+        private void Swap(int i, int j, int[] nums)
+        {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
         }
     }
 
