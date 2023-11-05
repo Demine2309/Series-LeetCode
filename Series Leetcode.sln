@@ -73,9 +73,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23. Merge k Sorted List", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24. Swap nodes in Pairs", "24. Swap nodes in Pairs\24. Swap nodes in Pairs.csproj", "{4DE89C66-CB68-4925-ABAF-A9E461B3F3E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. Divide two Intergers", "29. Divide two Intergers\29. Divide two Intergers.csproj", "{D0E3B46A-CEFA-44F8-9333-9F5078077310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29. Divide two Intergers", "29. Divide two Intergers\29. Divide two Intergers.csproj", "{D0E3B46A-CEFA-44F8-9333-9F5078077310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. Substring with Concatenation of All Words", "30. Substring with Concatenation of All Words\30. Substring with Concatenation of All Words.csproj", "{7D9AAFF4-87A1-4FFE-AA21-70E180F461C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30. Substring with Concatenation of All Words", "30. Substring with Concatenation of All Words\30. Substring with Concatenation of All Words.csproj", "{7D9AAFF4-87A1-4FFE-AA21-70E180F461C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31. Next Permutation", "31. Next Permutation\31. Next Permutation.csproj", "{95DF159C-2048-4788-B638-839D2F4C74E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{7D9AAFF4-87A1-4FFE-AA21-70E180F461C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9AAFF4-87A1-4FFE-AA21-70E180F461C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9AAFF4-87A1-4FFE-AA21-70E180F461C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DF159C-2048-4788-B638-839D2F4C74E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DF159C-2048-4788-B638-839D2F4C74E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DF159C-2048-4788-B638-839D2F4C74E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DF159C-2048-4788-B638-839D2F4C74E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

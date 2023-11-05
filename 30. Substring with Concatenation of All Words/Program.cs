@@ -1,10 +1,85 @@
-﻿namespace SeriesLeetCode
+﻿using System;
+using System.Collections.Generic;
+
+namespace SeriesLeetCode
 {
+
+    // Way 1:
+    //public class Solution
+    //{
+    //    public IList<int> FindSubstring(string s, string[] words)
+    //    {
+    //        int lengthOfWord = words[0].Length;
+    //        int lengthOfSubstring = lengthOfWord * words.Length;
+    //        IList<int> result = new List<int>();
+
+    //        List<string> remainingWords = new List<string>(words);
+
+    //        for (int i = 0; i <= s.Length - lengthOfSubstring; i++)
+    //        {
+    //            List<string> seenWords = new List<string>(remainingWords);
+
+    //            int j;
+    //            for (j = 0; j < words.Length; j++)
+    //            {
+    //                string currentWord = s.Substring(i + j * lengthOfWord, lengthOfWord);
+
+    //                if (!seenWords.Contains(currentWord))
+    //                {
+    //                    break;
+    //                }
+
+    //                seenWords.Remove(currentWord);
+    //            }
+
+    //            if (j == words.Length)
+    //            {
+    //                result.Add(i);
+    //            }
+    //        }
+
+    //        return result;
+    //    }
+    //}
+
+    // Way 2:
     public class Solution
     {
         public IList<int> FindSubstring(string s, string[] words)
         {
+            int wordLength = words[0].Length;
+            int substringLength = wordLength * words.Length;
+            IList<int> result = new List<int>();
 
+            Dictionary<string, int> wordCounts = new Dictionary<string, int>();
+            foreach (string word in words)
+            {
+                if (wordCounts.ContainsKey(word))
+                    wordCounts[word]++;
+                else
+                    wordCounts[word] = 1;
+            }
+
+            for (int i = 0; i <= s.Length - substringLength; i++)
+            {
+                Dictionary<string, int> seenWords = new Dictionary<string, int>(wordCounts);
+
+                int j;
+                for (j = 0; j < words.Length; j++)
+                {
+                    string currentWord = s.Substring(i + j * wordLength, wordLength);
+
+                    if (!seenWords.ContainsKey(currentWord) || seenWords[currentWord] == 0)
+                        break;
+
+                    seenWords[currentWord]--;
+                }
+
+                if (j == words.Length)
+                    result.Add(i);
+            }
+
+            return result;
         }
     }
 
@@ -14,7 +89,15 @@
         {
             Solution solution = new Solution();
 
+            string s = "barfoofoobarthefoobarman";
+            string[] words = { "bar", "foo", "the" };
 
+            IList<int> result = solution.FindSubstring(s, words);
+
+            foreach (int i in result)
+            {
+                Console.Write(i + " ");
+            }
         }
     }
 }
