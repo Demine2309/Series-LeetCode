@@ -52,7 +52,7 @@
         {
             Solution solution = new Solution();
 
-            int[] nums = { 1, 2, 5, 4, 3 };
+            int[] nums = { 1, 7, 6, 5, 4, 3, 2 };
 
             solution.NextPermutation(nums);
 

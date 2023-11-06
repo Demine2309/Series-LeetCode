@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29. Divide two Intergers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30. Substring with Concatenation of All Words", "30. Substring with Concatenation of All Words\30. Substring with Concatenation of All Words.csproj", "{7D9AAFF4-87A1-4FFE-AA21-70E180F461C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31. Next Permutation", "31. Next Permutation\31. Next Permutation.csproj", "{95DF159C-2048-4788-B638-839D2F4C74E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31. Next Permutation", "31. Next Permutation\31. Next Permutation.csproj", "{95DF159C-2048-4788-B638-839D2F4C74E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34. Find First and Last Position of Element in Sorted Array", "34. Find First and Last Position of Element in Sorted Array\34. Find First and Last Position of Element in Sorted Array.csproj", "{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{95DF159C-2048-4788-B638-839D2F4C74E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DF159C-2048-4788-B638-839D2F4C74E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DF159C-2048-4788-B638-839D2F4C74E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
