@@ -4,7 +4,45 @@
     {
         public void NextPermutation(int[] nums)
         {
+            int i = nums.Length - 2;
+            while (i >= 0 && nums[i] >= nums[i + 1])
+            {
+                i--;
+            }
 
+            if (i >= 0)
+            {
+                int j = nums.Length - 1;
+
+                while (j >= 0 && nums[j] <= nums[i])
+                {
+                    j--;
+                }
+
+                Swap(i, j, nums);
+            }
+
+            Reverse(nums, i + 1);
+        }
+
+        private void Swap(int i, int j, int[] arr)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+
+        private void Reverse(int[] nums, int start)
+        {
+            int i = start;
+            int j = nums.Length - 1;
+
+            while (i < j)
+            {
+                Swap(i, j, nums);
+                i++;
+                j--;
+            }
         }
     }
 
@@ -14,6 +52,14 @@
         {
             Solution solution = new Solution();
 
+            int[] nums = { 1, 2, 5, 4, 3 };
+
+            solution.NextPermutation(nums);
+
+            foreach (int i in nums)
+            {
+                Console.Write(i + "  ");
+            }
         }
     }
 }
