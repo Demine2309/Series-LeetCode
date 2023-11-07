@@ -4,7 +4,23 @@
     {
         public int[] SearchRange(int[] nums, int target)
         {
+            List<int> result = new List<int>();
 
+            if (nums.Length == 0)
+                return new int[] { -1, -1 };
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == target)
+                {
+                    result.Add(i);
+                }
+            }
+
+            if (result.Count == 0)
+                return new int[] { -1, -1 };
+
+            return new int[] { result[0], result[result.Count - 1] };
         }
     }
 
@@ -14,6 +30,15 @@
         {
             Solution solution = new Solution();
 
+            int[] nums = { 1, 4 };
+            int target = 4;
+
+            int[] result = solution.SearchRange(nums, target);
+
+            foreach (int i in result)
+            {
+                Console.Write(i + "  ");
+            }
         }
     }
 }
