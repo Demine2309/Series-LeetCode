@@ -81,7 +81,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31. Next Permutation", "31.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34. Find First and Last Position of Element in Sorted Array", "34. Find First and Last Position of Element in Sorted Array\34. Find First and Last Position of Element in Sorted Array.csproj", "{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36. Valis Sudoku", "36. Valis Sudoku\36. Valis Sudoku.csproj", "{7292BD24-1107-4A62-9E6F-F2E333B7793D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36. Valid Sudoku", "36. Valis Sudoku\36. Valid Sudoku.csproj", "{7292BD24-1107-4A62-9E6F-F2E333B7793D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

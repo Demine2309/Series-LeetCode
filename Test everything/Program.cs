@@ -2,38 +2,18 @@
 {
     static void Main(string[] args)
     {
-        string s = "(())";
+        char[][] test = new char[3][];
 
-        bool result = IsValid(s);
+        char[] row1 = new char[4];
+        char[] row2 = new char[5];
+        char[] row3 = new char[6];
 
-        Console.WriteLine(result);
-    }
+        char[][] ad = new char[0][];
 
-    private static bool IsValid(string s)
-    {
-        Stack<char> stack = new Stack<char>();
-
-        foreach (char c in s)
+        for (int i = 0; i < row1.Length; i++)
         {
-            if (c == '(')
-            {
-                stack.Push(c);
-            }
-            else if (c == ')')
-            {
-                if (stack.Count == 0)
-                {
-                    return false;
-                }
-
-                char openingBracket = stack.Pop();
-                if (openingBracket != '(')
-                {
-                    return false;
-                }
-            }
+            ad[0][i] = test[0][i];
         }
 
-        return stack.Count == 0;
     }
 }
