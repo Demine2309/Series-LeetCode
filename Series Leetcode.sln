@@ -81,6 +81,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31. Next Permutation", "31.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34. Find First and Last Position of Element in Sorted Array", "34. Find First and Last Position of Element in Sorted Array\34. Find First and Last Position of Element in Sorted Array.csproj", "{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36. Valid Sudoku", "36. Valid Sudoku\36. Valid Sudoku.csproj", "{DD803548-4F6B-4822-9157-57FD5C76F4C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38. Count and Say", "38. Count and Say\38. Count and Say.csproj", "{FD6E588B-8852-4569-95F7-F9D1CC40EF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39. Combination Sum", "39. Combination Sum\39. Combination Sum.csproj", "{CC5F06BC-8CE5-49EA-A993-1A6CCCA2330A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +249,18 @@ Global
 		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B980AB9F-923E-45F1-9F7C-9584F0EBED4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD803548-4F6B-4822-9157-57FD5C76F4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD803548-4F6B-4822-9157-57FD5C76F4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD803548-4F6B-4822-9157-57FD5C76F4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD803548-4F6B-4822-9157-57FD5C76F4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6E588B-8852-4569-95F7-F9D1CC40EF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6E588B-8852-4569-95F7-F9D1CC40EF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6E588B-8852-4569-95F7-F9D1CC40EF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6E588B-8852-4569-95F7-F9D1CC40EF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5F06BC-8CE5-49EA-A993-1A6CCCA2330A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5F06BC-8CE5-49EA-A993-1A6CCCA2330A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5F06BC-8CE5-49EA-A993-1A6CCCA2330A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5F06BC-8CE5-49EA-A993-1A6CCCA2330A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

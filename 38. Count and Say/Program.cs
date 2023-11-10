@@ -1,4 +1,6 @@
-﻿namespace SeriesLeetCode
+﻿using System.Text;
+
+namespace SeriesLeetCode
 {
     public class Solution
     {
