@@ -1,12 +1,39 @@
-﻿namespace SeriesLeetCode
+﻿using System.Linq;
+
+namespace SeriesLeetCode
 {
     public class Solution
     {
         public int FirstMissingPositive(int[] nums)
         {
+            Array.Sort(nums);
 
+            int positiveIndex = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] > 0)
+                {
+                    nums[positiveIndex++] = nums[i];
+                }
+            }
+
+            if (positiveIndex == 0 || nums[0] > 1)
+            {
+                return 1;
+            }
+
+            for (int i = 0; i < positiveIndex - 1; i++)
+            {
+                if (nums[i + 1] - nums[i] > 1)
+                {
+                    return nums[i] + 1;
+                }
+            }
+
+            return nums[positiveIndex - 1] + 1;
         }
     }
+
 
     class MainClass
     {
@@ -14,6 +41,11 @@
         {
             Solution solution = new Solution();
 
+            int[] nums = { 7, 8, 9, 11, 12 };
+
+            int result = solution.FirstMissingPositive(nums);
+            
+            Console.WriteLine(result);
         }
     }
 }
