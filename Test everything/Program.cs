@@ -2,17 +2,15 @@
 {
     static void Main(string[] args)
     {
-        char[][] test = new char[3][];
+        int[] test = { 1, 2, 3, 4, 5 };
 
-        char[] row1 = new char[4];
-        char[] row2 = new char[5];
-        char[] row3 = new char[6];
+        test = test.Skip(1).ToArray();
+        
+        Array.Resize(ref test, test.Length - 1);
 
-        char[][] ad = new char[0][];
-
-        for (int i = 0; i < row1.Length; i++)
+        foreach (int i in test)
         {
-            ad[0][i] = test[0][i];
+            Console.WriteLine(i);
         }
 
     }
