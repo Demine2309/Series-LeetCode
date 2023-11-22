@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41. First Missing Positive"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "42. Trapping Rain Water", "42. Trapping Rain Water\42. Trapping Rain Water.csproj", "{0C8E0B1E-8176-4AEF-BF94-F9BE3B2A05A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43. Multiply Strings", "43. Multiply Strings\43. Multiply Strings.csproj", "{93783402-9AB2-47CD-8001-B55491842D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "43. Multiply Strings", "43. Multiply Strings\43. Multiply Strings.csproj", "{93783402-9AB2-47CD-8001-B55491842D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45. Jump Game II", "45. Jump Game II\45. Jump Game II.csproj", "{3D2B2523-88C7-4052-B860-61F847A0749F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{93783402-9AB2-47CD-8001-B55491842D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93783402-9AB2-47CD-8001-B55491842D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93783402-9AB2-47CD-8001-B55491842D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2B2523-88C7-4052-B860-61F847A0749F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2B2523-88C7-4052-B860-61F847A0749F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2B2523-88C7-4052-B860-61F847A0749F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2B2523-88C7-4052-B860-61F847A0749F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
