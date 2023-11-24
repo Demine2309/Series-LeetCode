@@ -6,6 +6,23 @@
         {
 
         }
+
+        public void Print(IList<IList<int>> result)
+        {
+            foreach (var combination in result)
+            {
+                Console.Write("[");
+                foreach (var element in combination)
+                {
+                    Console.Write(element);
+                    if (element != combination.Last())
+                    {
+                        Console.Write(",");
+                    }
+                }
+                Console.Write("] ");
+            }
+        }
     }
 
     class MainClass
