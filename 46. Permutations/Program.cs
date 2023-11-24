@@ -2,149 +2,91 @@
 
 namespace SeriesLeetCode
 {
-    //public class Solution
-    //{
-    //    public IList<IList<int>> Permute(int[] list)
-    //    {
-    //        IList<IList<int>> result = new List<IList<int>>();
-    //        IList<int> newElement = ConvertArrayToList(list);
-
-    //        int numberOfResult = list.Length;
-
-    //        result.Add(newElement);
-
-    //        for (int  i = 1; i <= numberOfResult; i++)
-    //        {
-    //            newElement = NextPermutation(list);
-
-    //            result.Add(newElement);
-    //        }
-
-    //        return result;
-    //    }
-
-    //    private IList<int> NextPermutation(int[] nums)
-    //    {
-    //        int i = nums.Length - 2;
-    //        while (i >= 0 && nums[i] >= nums[i + 1])
-    //        {
-    //            i--;
-    //        }
-
-    //        if (i >= 0)
-    //        {
-    //            int j = nums.Length - 1;
-
-    //            while (j >= 0 && nums[j] <= nums[i])
-    //            {
-    //                j--;
-    //            }
-
-    //            Swap(i, j, nums);
-    //        }
-
-    //        Reverse(nums, i + 1);
-
-    //        return ConvertArrayToList(nums);
-    //    }
-
-    //    private IList<int> ConvertArrayToList(int[] arr)
-    //    {
-    //        IList<int> list = new List<int>();
-
-    //        foreach (int element in arr)
-    //        {
-    //            list.Add(element);
-    //        }
-
-    //        return list;
-    //    }
-
-    //    private void Swap(int i, int j, int[] arr)
-    //    {
-    //        int temp = arr[i];
-    //        arr[i] = arr[j];
-    //        arr[j] = temp;
-    //    }
-
-    //    private void Reverse(int[] nums, int start)
-    //    {
-    //        int i = start;
-    //        int j = nums.Length - 1;
-
-    //        while (i < j)
-    //        {
-    //            Swap(i, j, nums);
-    //            i++;
-    //            j--;
-    //        }
-    //    }
-
-    //    private int Factorial(int n)
-    //    {
-    //        if (n == 0 || n == 1)
-    //            return 1;
-    //        else
-    //            return n * Factorial(n - 1);
-    //    }
-
-    //    public void Print(IList<IList<int>> result)
-    //    {
-    //        foreach (var combination in result)
-    //        {
-    //            Console.Write("[");
-    //            foreach (var element in combination)
-    //            {
-    //                Console.Write(element);
-    //                if (element != combination.Last())
-    //                {
-    //                    Console.Write(",");
-    //                }
-    //            }
-    //            Console.Write("] ");
-    //        }
-    //    }
-    //}
-
-
+    #region My way
     public class Solution
     {
-        public IList<IList<int>> Permute(int[] nums)
+        public IList<IList<int>> Permute(int[] list)
         {
             IList<IList<int>> result = new List<IList<int>>();
-            IList<int> current = new List<int>();
-            bool[] used = new bool[nums.Length];
+            IList<int> newElement = ConvertArrayToList(list);
 
-            GeneratePermutations(nums, result, current, used);
+            int numberOfResult = Factorial(list.Length);
+
+            result.Add(newElement);
+
+            for (int i = 1; i <= numberOfResult - 1; i++)
+            {
+                newElement = NextPermutation(list);
+
+                result.Add(newElement);
+            }
 
             return result;
         }
 
-        private void GeneratePermutations(int[] nums, IList<IList<int>> result, IList<int> current, bool[] used)
+        private IList<int> NextPermutation(int[] arr)
         {
-            if (current.Count == nums.Length)
+            int i = arr.Length - 2;
+            while (i >= 0 && arr[i] >= arr[i + 1])
             {
-                // Add a copy of the current permutation to the result
-                result.Add(new List<int>(current));
-                return;
+                i--;
             }
 
-            for (int i = 0; i < nums.Length; i++)
+            if (i >= 0)
             {
-                if (!used[i])
+                int j = arr.Length - 1;
+
+                while (j >= 0 && arr[j] <= arr[i])
                 {
-                    // Include the current number in the permutation
-                    current.Add(nums[i]);
-                    used[i] = true;
-
-                    // Recursively generate permutations for the remaining numbers
-                    GeneratePermutations(nums, result, current, used);
-
-                    // Backtrack: remove the last added number and mark it as unused
-                    current.RemoveAt(current.Count - 1);
-                    used[i] = false;
+                    j--;
                 }
+
+                Swap(i, j, arr);
             }
+
+            Reverse(arr, i + 1);
+
+            return ConvertArrayToList(arr);
+        }
+
+        private IList<int> ConvertArrayToList(int[] arr)
+        {
+            IList<int> list = new List<int>();
+
+            foreach (int element in arr)
+            {
+                list.Add(element);
+            }
+
+            return list;
+        }
+
+        private void Swap(int i, int j, int[] arr)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+
+        private void Reverse(int[] arr, int start)
+        {
+            int i = start;
+            int j = arr.Length - 1;
+
+            while (i < j)
+            {
+                Swap(i, j, arr);
+                i++;
+                j--;
+            }
+        }
+
+        private int Factorial(int n)
+        {
+            if (n == 0 || n == 1)
+                return 1;
+            else
+                return n * Factorial(n - 1);
         }
 
         public void Print(IList<IList<int>> result)
@@ -164,6 +106,64 @@ namespace SeriesLeetCode
             }
         }
     }
+    #endregion
+
+    #region Other way
+    //public class Solution
+    //{
+    //    public IList<IList<int>> Permute(int[] nums)
+    //    {
+    //        IList<IList<int>> result = new List<IList<int>>();
+    //        IList<int> current = new List<int>();
+    //        bool[] used = new bool[nums.Length];
+
+    //        GeneratePermutations(nums, result, current, used);
+
+    //        return result;
+    //    }
+
+    //    private void GeneratePermutations(int[] nums, IList<IList<int>> result, IList<int> current, bool[] used)
+    //    {
+    //        if (current.Count == nums.Length)
+    //        {
+    //            result.Add(new List<int>(current));
+    //            return;
+    //        }
+
+    //        for (int i = 0; i < nums.Length; i++)
+    //        {
+    //            if (!used[i])
+    //            {
+    //                current.Add(nums[i]);
+    //                used[i] = true;
+
+    //                GeneratePermutations(nums, result, current, used);
+
+    //                current.RemoveAt(current.Count - 1);
+    //                used[i] = false;
+    //            }
+    //        }
+    //    }
+
+    //    public void Print(IList<IList<int>> result)
+    //    {
+    //        foreach (var combination in result)
+    //        {
+    //            Console.Write("[");
+    //            foreach (var element in combination)
+    //            {
+    //                Console.Write(element);
+    //                if (element != combination.Last())
+    //                {
+    //                    Console.Write(",");
+    //                }
+    //            }
+    //            Console.Write("] ");
+    //        }
+    //    }
+    //}
+    #endregion
+
 
     class MainClass
     {
