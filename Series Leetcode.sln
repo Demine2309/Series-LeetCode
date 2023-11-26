@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "45. Jump Game II", "45. Jum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "46. Permutations", "46. Permutations\46. Permutations.csproj", "{F9462BC3-CF82-4D2C-9894-53FFAB61652E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47. Permutations II", "47. Permutations II\47. Permutations II.csproj", "{8F522599-B957-4900-B91B-67BC362E7BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "47. Permutations II", "47. Permutations II\47. Permutations II.csproj", "{8F522599-B957-4900-B91B-67BC362E7BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "48. Rotate Image", "48. Rotate Image\48. Rotate Image.csproj", "{00DBE1B8-0135-41C2-8A41-2FE36ECAB8D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{8F522599-B957-4900-B91B-67BC362E7BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F522599-B957-4900-B91B-67BC362E7BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F522599-B957-4900-B91B-67BC362E7BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DBE1B8-0135-41C2-8A41-2FE36ECAB8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DBE1B8-0135-41C2-8A41-2FE36ECAB8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DBE1B8-0135-41C2-8A41-2FE36ECAB8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DBE1B8-0135-41C2-8A41-2FE36ECAB8D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

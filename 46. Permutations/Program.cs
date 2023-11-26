@@ -24,9 +24,22 @@ namespace SeriesLeetCode
             return result;
         }
 
+        private IList<int> ConvertArrayToList(int[] arr)
+        {
+            IList<int> list = new List<int>();
+
+            foreach (int element in arr)
+            {
+                list.Add(element);
+            }
+
+            return list;
+        }
+
         private IList<int> NextPermutation(int[] arr)
         {
             int i = arr.Length - 2;
+
             while (i >= 0 && arr[i] >= arr[i + 1])
             {
                 i--;
@@ -49,17 +62,6 @@ namespace SeriesLeetCode
             return ConvertArrayToList(arr);
         }
 
-        private IList<int> ConvertArrayToList(int[] arr)
-        {
-            IList<int> list = new List<int>();
-
-            foreach (int element in arr)
-            {
-                list.Add(element);
-            }
-
-            return list;
-        }
 
         private void Swap(int i, int j, int[] arr)
         {
@@ -97,7 +99,8 @@ namespace SeriesLeetCode
                 foreach (var element in combination)
                 {
                     Console.Write(element);
-                    if (element != combination.Last())
+
+                    if (combination.IndexOf(element) != combination.Count - 1)
                     {
                         Console.Write(",");
                     }
@@ -171,7 +174,7 @@ namespace SeriesLeetCode
         {
             Solution solution = new Solution();
 
-            int[] nums = { 1, 2, 3 };
+            int[] nums = { 1, 1, 2, 2};
             IList<IList<int>> result = solution.Permute(nums);
 
             solution.Print(result);
