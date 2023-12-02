@@ -1,25 +1,80 @@
-﻿using System.Collections.Immutable;
-
-namespace SeriesLeetCode
+﻿namespace SeriesLeetCode
 {
     public class Solution
     {
+        #region Cách 1
+        //public IList<IList<string>> GroupAnagrams(string[] strs)
+        //{
+        //    IList<IList<string>> result = new List<IList<string>>();
+
+        //    IList<IList<string>> groups = new List<IList<string>>();
+
+        //    for (int i = 0; i < strs.Length; i++)
+        //    {
+        //        string sortedStr = SortString(strs[i]);
+
+        //        bool foundGroup = false;
+        //        foreach (var group in groups)
+        //        {
+        //            if (group.Count > 0 && SortString(group[0]) == sortedStr)
+        //            {
+        //                group.Add(strs[i]);
+        //                foundGroup = true;
+        //                break;
+        //            }
+        //        }
+
+        //        if (!foundGroup)
+        //        {
+        //            IList<string> newGroup = new List<string> { strs[i] };
+        //            groups.Add(newGroup);
+        //        }
+        //    }
+
+        //    foreach (var group in groups)
+        //    {
+        //        result.Add(group);
+        //    }
+
+        //    return result;
+        //}
+
+        //private string SortString(string input)
+        //{
+        //    char[] characters = input.ToCharArray();
+        //    Array.Sort(characters);
+        //    return new string(characters);
+        //} 
+        #endregion
+
+        #region Cách 2
         public IList<IList<string>> GroupAnagrams(string[] strs)
         {
-            IList<IList<string>> result = new List<IList<string>>();
-            IList<string> element = new List<string>();
-            IList<string> group = new List<string>();
+            Dictionary<string, IList<string>> anagramGroups = new Dictionary<string, IList<string>>();
 
-            for (int i = 0; i < strs.Length;i++)
+            foreach (string str in strs)
             {
-                char[] c = strs[i].ToCharArray();
+                string sortedStr = SortString(str);
 
-                Array.Sort(c);
+                if (!anagramGroups.TryGetValue(sortedStr, out IList<string> group))
+                {
+                    group = new List<string>();
+                    anagramGroups[sortedStr] = group;
+                }
 
-                
-                group.Add(c);
+                group.Add(str);
             }
+
+            return anagramGroups.Values.ToList();
         }
+
+        private string SortString(string input)
+        {
+            char[] characters = input.ToCharArray();
+            Array.Sort(characters);
+            return new string(characters);
+        }
+        #endregion
 
         public void Print(IList<IList<string>> result)
         {
@@ -48,6 +103,7 @@ namespace SeriesLeetCode
 
             IList<IList<string>> result = solution.GroupAnagrams(strs);
 
+            solution.Print(result);
         }
     }
 }
