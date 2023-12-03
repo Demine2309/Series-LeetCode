@@ -5,6 +5,7 @@
         public double MyPow(double x, int n)
         {
             #region Stack overflow issue
+            // recursive approach
             //if (n == 0)
             //    return 1;
 
@@ -12,6 +13,16 @@
             //    return x * MyPow(x, n - 1);
             //else
             //    return 1 / (x * MyPow(x, -(n + 1)));
+
+            // Sequential approach
+            //double result = 1;
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    result *= x;
+            //}
+
+            //return result;
             #endregion
 
             if (n == 0)
