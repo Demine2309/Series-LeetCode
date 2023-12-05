@@ -4,28 +4,20 @@
     {
         public int RemoveDuplicates(int[] nums)
         {
-            for(int i = 0; i < nums.Length - 1; i++)
-            {
-                for(int j = i + 1; j < nums.Length; j++)
-                {
-                    if (nums[j] > nums[i])
-                    {
-                        Swap(j, i + 1, nums);
-                        break;
-                    }
-                }
+            int firstElement = nums[0];
+            int count = 1;
 
-                if()
+            for(int i = 1; i < nums.Length; i++)
+            {
+                if (firstElement != nums[i])
+                {
+                    firstElement = nums[i];
+                    nums[count] = firstElement;
+                    count++;
+                }
             }
 
-
-        }
-
-        private void Swap(int i, int j, int[] nums)
-        {
-            int temp = nums[i];
-            nums[i] = nums[j];
-            nums[j] = temp;
+            return count;
         }
     }
 
@@ -35,7 +27,15 @@
         {
             Solution solution = new Solution();
 
+            int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            int result = solution.RemoveDuplicates(nums);
 
+            foreach(int i in nums)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("\n" +result);
         }
     }
 }

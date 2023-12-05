@@ -105,9 +105,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "48. Rotate Image", "48. Rot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49. Group Anagrams", "49. Group Anagrams\49. Group Anagrams.csproj", "{5BF1ABB5-FE7B-42E9-BD35-A71E6541D679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50. Pow(x, n)", "50. Pow(x, n)\50. Pow(x, n).csproj", "{15FCB2FE-812E-4C90-8685-F6DC6CF63994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "50. Pow(x, n)", "50. Pow(x, n)\50. Pow(x, n).csproj", "{15FCB2FE-812E-4C90-8685-F6DC6CF63994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "51. N-Queens", "51. N-Queens\51. N-Queens.csproj", "{4B068175-3DB8-4CBD-B970-89EFCB7F6230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51. N-Queens", "51. N-Queens\51. N-Queens.csproj", "{4B068175-3DB8-4CBD-B970-89EFCB7F6230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53. Maximum Subarray", "53. Maximum Subarray\53. Maximum Subarray.csproj", "{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{4B068175-3DB8-4CBD-B970-89EFCB7F6230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B068175-3DB8-4CBD-B970-89EFCB7F6230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B068175-3DB8-4CBD-B970-89EFCB7F6230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
