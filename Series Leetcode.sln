@@ -109,7 +109,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "50. Pow(x, n)", "50. Pow(x,
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51. N-Queens", "51. N-Queens\51. N-Queens.csproj", "{4B068175-3DB8-4CBD-B970-89EFCB7F6230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53. Maximum Subarray", "53. Maximum Subarray\53. Maximum Subarray.csproj", "{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "53. Maximum Subarray", "53. Maximum Subarray\53. Maximum Subarray.csproj", "{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "52. N-Queens II", "52. N-Queens II\52. N-Queens II.csproj", "{A7A422AD-4AD1-4C60-B096-7F039102AE8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +335,10 @@ Global
 		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A422AD-4AD1-4C60-B096-7F039102AE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A422AD-4AD1-4C60-B096-7F039102AE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A422AD-4AD1-4C60-B096-7F039102AE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A422AD-4AD1-4C60-B096-7F039102AE8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
