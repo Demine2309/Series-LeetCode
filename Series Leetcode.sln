@@ -111,9 +111,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51. N-Queens", "51. N-Queen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "53. Maximum Subarray", "53. Maximum Subarray\53. Maximum Subarray.csproj", "{4E4F9B16-0D6A-478F-9F41-AD5565D5FF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "52. N-Queens II", "52. N-Queens II\52. N-Queens II.csproj", "{A7A422AD-4AD1-4C60-B096-7F039102AE8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52. N-Queens II", "52. N-Queens II\52. N-Queens II.csproj", "{A7A422AD-4AD1-4C60-B096-7F039102AE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54. Spiral Matrix", "54. Spiral Matrix\54. Spiral Matrix.csproj", "{06A2B841-7227-42E6-8C9A-6F3097483BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "54. Spiral Matrix", "54. Spiral Matrix\54. Spiral Matrix.csproj", "{06A2B841-7227-42E6-8C9A-6F3097483BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "55. Jump Game", "55. Jump Game\55. Jump Game.csproj", "{4F48C6F3-B2E9-44BD-BB40-80CD33D0BF0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,6 +347,10 @@ Global
 		{06A2B841-7227-42E6-8C9A-6F3097483BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A2B841-7227-42E6-8C9A-6F3097483BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A2B841-7227-42E6-8C9A-6F3097483BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F48C6F3-B2E9-44BD-BB40-80CD33D0BF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F48C6F3-B2E9-44BD-BB40-80CD33D0BF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F48C6F3-B2E9-44BD-BB40-80CD33D0BF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F48C6F3-B2E9-44BD-BB40-80CD33D0BF0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
