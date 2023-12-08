@@ -1,24 +1,51 @@
 ﻿using System;
 
-class MatrixSwapper
+public class Solution
+{
+    public int LLL(string s)
+    {
+        int maxLength = 0;
+
+        for(int i = 0; i < s.Length; i++)
+        {
+            char currentChar = s[i];
+            bool[] checkerViet = new bool[s.Length - i - 1];
+            int k = 0;
+
+            for(int j = i + 1; j < s.Length; j++)
+            {
+                if (currentChar == s[j])
+                {
+                    checkerViet[k] = true;
+                    break;
+                }
+                else
+                {
+                    checkerViet[k] = false;
+                }
+                k++;
+            }
+
+            if(k + 1> maxLength)
+            {
+                maxLength = k + 1;
+            }
+        }
+
+        return maxLength;
+    }
+}
+
+class MainClass
 {
     static void Main()
     {
-        // Khởi tạo một ma trận 3x4
-        int[][] matrix = {
-            new int[] {1, 2, 3, 4},
-            new int[] {5, 6, 7, 8},
-            new int[] { 9, 10, 11, 12 },
-            new int[] { 13, 14, 15, 16 },
-            new int[] { 16, 17, 18, 19 }
-        };
+        Solution solution = new Solution();
 
-        // Lấy số hàng và số cột của ma trận
-        int rows = matrix.Length;
-        int columns = matrix[0].Length;
+        string s = "abcabcbb";
 
-        // In kết quả
-        Console.WriteLine("Số hàng của ma trận: " + rows);
-        Console.WriteLine("Số cột của ma trận: " + columns);
+        int result = solution.LLL(s);
+
+        Console.WriteLine(result);
     }
 }
