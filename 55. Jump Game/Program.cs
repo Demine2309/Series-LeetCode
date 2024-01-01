@@ -4,7 +4,22 @@
     {
         public bool CanJump(int[] nums)
         {
+            int n = nums.Length - 1;
+            int currentIndex = 0;
 
+            for (int i = 0; i <= currentIndex; i++)
+            {
+                int maxJump = nums[i];
+
+                currentIndex = Math.Max(currentIndex, i + maxJump);
+
+                if (currentIndex >= n)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 
@@ -14,7 +29,11 @@
         {
             Solution solution = new Solution();
 
+            int[] nums = { 2,5,0,0 };
 
+            bool result = solution.CanJump(nums);
+
+            Console.WriteLine(result);
         }
     }
 }

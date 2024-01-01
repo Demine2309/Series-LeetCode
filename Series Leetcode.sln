@@ -117,15 +117,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "54. Spiral Matrix", "54. Sp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "55. Jump Game", "55. Jump Game\55. Jump Game.csproj", "{4F48C6F3-B2E9-44BD-BB40-80CD33D0BF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1480. Running Sum of 1D Array", "1480. Running Sum of 1D Array\1480. Running Sum of 1D Array.csproj", "{F8DE0626-83E3-4D82-8E4F-749DBABF6C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1480. Running Sum of 1D Array", "1480. Running Sum of 1D Array\1480. Running Sum of 1D Array.csproj", "{F8DE0626-83E3-4D82-8E4F-749DBABF6C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1672. Richest Customer Wealth", "1672. Richest Customer Wealth\1672. Richest Customer Wealth.csproj", "{59E1BFD8-07C7-4ECA-A34B-3E77E9AAA040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1672. Richest Customer Wealth", "1672. Richest Customer Wealth\1672. Richest Customer Wealth.csproj", "{59E1BFD8-07C7-4ECA-A34B-3E77E9AAA040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "412. Fizz Buzz", "412. Fizz Buzz\412. Fizz Buzz.csproj", "{E0AB0F97-1009-4828-9A9A-9509CC1690DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "412. Fizz Buzz", "412. Fizz Buzz\412. Fizz Buzz.csproj", "{E0AB0F97-1009-4828-9A9A-9509CC1690DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1342. Number of Steps to Reduce a Number to Zero", "1342. Number of Steps to Reduce a Number to Zero\1342. Number of Steps to Reduce a Number to Zero.csproj", "{0612820B-AE45-40A5-965D-E91D7CEA6C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1342. Number of Steps to Reduce a Number to Zero", "1342. Number of Steps to Reduce a Number to Zero\1342. Number of Steps to Reduce a Number to Zero.csproj", "{0612820B-AE45-40A5-965D-E91D7CEA6C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "876. Middle of the Linked List", "876. Middle of the Linked List\876. Middle of the Linked List.csproj", "{F50FFFA4-2546-471E-851E-C17D6E6208F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "876. Middle of the Linked List", "876. Middle of the Linked List\876. Middle of the Linked List.csproj", "{F50FFFA4-2546-471E-851E-C17D6E6208F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "56. Merge Intervals", "56. Merge Intervals\56. Merge Intervals.csproj", "{43D3CDD9-2B9D-4B24-BC86-177FEDD2C91E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -381,6 +383,10 @@ Global
 		{F50FFFA4-2546-471E-851E-C17D6E6208F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50FFFA4-2546-471E-851E-C17D6E6208F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50FFFA4-2546-471E-851E-C17D6E6208F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D3CDD9-2B9D-4B24-BC86-177FEDD2C91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D3CDD9-2B9D-4B24-BC86-177FEDD2C91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D3CDD9-2B9D-4B24-BC86-177FEDD2C91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D3CDD9-2B9D-4B24-BC86-177FEDD2C91E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

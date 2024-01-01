@@ -17,7 +17,41 @@
     {
         public ListNode MiddleNode(ListNode head)
         {
+            ListNode temp = head;
+            int lengthOfNode = GetCount(head) / 2;
+            int middleNode;
 
+            if (lengthOfNode % 2 == 0)
+            {
+                middleNode = (lengthOfNode / 2) + 1;
+            }
+            else
+            {
+                middleNode = (lengthOfNode + 1) / 2;
+            }
+
+            for(int i = middleNode; i <= lengthOfNode; i++)
+            {
+                if()
+            }
+        }
+
+        private int GetCount(ListNode node)
+        {
+            if (node == null) return 0;
+
+            return 1 + GetCount(node.next);
+        }
+
+        public void Print(ListNode head)
+        {
+            ListNode temp = head;
+            while (temp != null)
+            {
+                Console.Write(temp.val + " -> ");
+                temp = temp.next;
+            }
+            Console.Write("null\n");
         }
     }
 
