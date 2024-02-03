@@ -129,7 +129,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "876. Middle of the Linked L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "56. Merge Intervals", "56. Merge Intervals\56. Merge Intervals.csproj", "{43D3CDD9-2B9D-4B24-BC86-177FEDD2C91E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59. Spiral Matrix II", "59. Spiral Matrix II\59. Spiral Matrix II.csproj", "{FABA8270-3C79-44B5-A7C1-26A59BC7D9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "59. Spiral Matrix II", "59. Spiral Matrix II\59. Spiral Matrix II.csproj", "{FABA8270-3C79-44B5-A7C1-26A59BC7D9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Two Sum", "1. Two Sum\1. Two Sum.csproj", "{8B141A74-68F1-4B6F-BA2A-6B1871181266}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -909,6 +911,18 @@ Global
 		{FABA8270-3C79-44B5-A7C1-26A59BC7D9DE}.Release|x64.Build.0 = Release|Any CPU
 		{FABA8270-3C79-44B5-A7C1-26A59BC7D9DE}.Release|x86.ActiveCfg = Release|Any CPU
 		{FABA8270-3C79-44B5-A7C1-26A59BC7D9DE}.Release|x86.Build.0 = Release|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Debug|x64.Build.0 = Debug|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Release|x64.ActiveCfg = Release|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Release|x64.Build.0 = Release|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B141A74-68F1-4B6F-BA2A-6B1871181266}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
