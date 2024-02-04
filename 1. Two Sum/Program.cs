@@ -1,48 +1,21 @@
-﻿using System.ComponentModel;
-
-namespace SeriesLeetCode
+﻿namespace SeriesLeetCode
 {
     public class Solution
     {
         public int[] TwoSum(int[] nums, int target)
         {
-            List<int> temp = new List<int>();
-            int currentSum = 0;
-            bool isDone = false;
-
             for (int i = 0; i < nums.Length - 1; i++)
             {
-                currentSum += nums[i];
-                temp.Add(i);
-
                 for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if (nums[i] + nums[j] < target)
+                    if (nums[i] + nums[j] == target)
                     {
-                        currentSum += nums[j];
-                        temp.Add(j);
-                    }
-                    else if (nums[i] + nums[j] > target)
-                    {
-                        currentSum = 0;
-                        temp.Clear();
-                        break;
-                    }
-                    else if (nums[i] + nums[j] == target)
-                    {
-                        temp.Add(j);
-                        isDone = true;
-                        break;
+                        return new int[] { i, j };
                     }
                 }
-
-                if (isDone == true)
-                    break;
             }
 
-            int[] result = temp.ToArray();
-
-            return result;
+            return new int[0];
         }
 
         public void Print(int[] result)
@@ -60,7 +33,7 @@ namespace SeriesLeetCode
         {
             Solution solution = new Solution();
 
-            int[] nums = { 3, 2, 4 };
+            int[] nums = { 3, 1, 3 };
             int target = 6;
 
             int[] result = solution.TwoSum(nums, target);
