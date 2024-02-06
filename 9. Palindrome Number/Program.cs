@@ -4,7 +4,14 @@
     {
         public bool IsPalindrome(int x)
         {
+            string s = x.ToString();
 
+            int n = s.Length;
+
+            if (n % 2 == 0)
+            {
+
+            }
         }
     }
 
@@ -12,7 +19,7 @@
     {
         static void Main(string[] args)
         {
-            Solution solution = new Solution(); 
+            Solution solution = new Solution();
 
 
         }
