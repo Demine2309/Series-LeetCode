@@ -4,14 +4,17 @@
     {
         public bool IsPalindrome(int x)
         {
-            string s = x.ToString();
+            if (x < 0) return false;
+              
+            string strX = x.ToString();
 
-            int n = s.Length;
+            char[] charArray = strX.ToCharArray();
 
-            if (n % 2 == 0)
-            {
+            Array.Reverse(charArray);
 
-            }
+            string reversedStrX = new string(charArray);
+
+            return strX.Equals(reversedStrX);
         }
     }
 
@@ -21,7 +24,11 @@
         {
             Solution solution = new Solution();
 
+            int x = 121;
 
+            bool isPalindrome = solution.IsPalindrome(x);
+
+            Console.WriteLine(isPalindrome);
         }
     }
 }
