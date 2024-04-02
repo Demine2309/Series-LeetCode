@@ -17,9 +17,52 @@
 
     public class Solution
     {
+        public TreeNode root;
+
         public IList<int> InorderTraversal(TreeNode node)
         {
+            IList<int> result = new List<int>();
+            Inorder(node, result);
 
+            return result;
+        }
+
+        private void Inorder(TreeNode node, IList<int> result)
+        {
+            if (node == null)
+                return;
+
+            Inorder(node.left, result);
+            result.Add(node.val);
+            Inorder(node.right, result);
+        }
+
+        public void PrintResult(IList<int> list)
+        {
+            Console.Write("[");
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.Write(list[i]);
+                if (i < list.Count - 1)
+                {
+                    Console.Write(", ");
+                }
+            }
+            Console.WriteLine("]");
+        }
+    }
+
+    class MainClass
+    {
+        static void Main(string[] args)
+        {
+            Solution tree = new Solution();
+
+            tree.root = new TreeNode(1);
+            tree.root.right = new TreeNode(2);
+            tree.root.right.left = new TreeNode(3);
+
+            tree.PrintResult(tree.InorderTraversal(tree.root));
         }
     }
 }
