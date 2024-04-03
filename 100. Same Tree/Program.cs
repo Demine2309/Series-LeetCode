@@ -15,9 +15,33 @@
 
     public class Solution
     {
+        public TreeNode rootP, rootQ;
+
         public bool IsSameTree(TreeNode p, TreeNode q)
         {
-                
+            if(p == null && q == null) return true;
+
+            if(p == null || q == null) return false;
+
+            if(p.val != q.val) return false;
+
+            return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
+        }
+    }
+
+    class MainClass
+    {
+        static void Main(string[] args)
+        {
+            Solution solution = new Solution();
+
+            solution.rootP = new TreeNode(1);
+            solution.rootP.left = new TreeNode(1);
+
+            solution.rootQ = new TreeNode(1);
+            solution.rootQ.right = new TreeNode(1);
+
+            Console.WriteLine(solution.IsSameTree(solution.rootP, solution.rootQ));
         }
     }
 }

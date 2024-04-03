@@ -137,7 +137,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. Palindrome Number", "9. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94. Binary Tree Inorder Traversal", "94. Binary Tree Inorder Traversal\94. Binary Tree Inorder Traversal.csproj", "{E7FD04CE-7D10-44DE-8F7D-70802D3256AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100. Same Tree", "100. Same Tree\100. Same Tree.csproj", "{AB2424E7-8292-426A-848D-79F7A84322C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "100. Same Tree", "100. Same Tree\100. Same Tree.csproj", "{AB2424E7-8292-426A-848D-79F7A84322C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101. Symmetric Tree", "101. Symmetric Tree\101. Symmetric Tree.csproj", "{8C24C46E-5431-44E2-8448-6B13EBB83958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -965,6 +967,18 @@ Global
 		{AB2424E7-8292-426A-848D-79F7A84322C0}.Release|x64.Build.0 = Release|Any CPU
 		{AB2424E7-8292-426A-848D-79F7A84322C0}.Release|x86.ActiveCfg = Release|Any CPU
 		{AB2424E7-8292-426A-848D-79F7A84322C0}.Release|x86.Build.0 = Release|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x64.Build.0 = Release|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
