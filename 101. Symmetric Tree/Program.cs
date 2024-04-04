@@ -5,7 +5,7 @@
         public int val;
         public TreeNode left, right;
 
-        public TreeNode(int val, TreeNode left, TreeNode right)
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
         {
             this.val = val;
             this.left = left;
@@ -19,7 +19,17 @@
 
         public bool IsSymmetric(TreeNode root)
         {
+            if (root == null) return true;
 
+            return IsMirror(root.left, root.right);
+        }
+
+        private bool IsMirror(TreeNode left, TreeNode right)
+        {
+            if (left == null && right == null) return true;
+            if (left == null || right == null) return false;
+
+            return (left.val == right.val) && (IsMirror(left.left, right.right) && (IsMirror(left.right, right.left)));
         }
     }
 
@@ -29,7 +39,15 @@
         {
             Solution tree = new Solution();
 
+            tree.root = new TreeNode(1);
+            tree.root.left = new TreeNode(2);
+            tree.root.right = new TreeNode(2);
+            tree.root.left.left = new TreeNode(3);
+            tree.root.left.right = new TreeNode(4);
+            tree.root.right.left = new TreeNode(4);
+            tree.root.right.right = new TreeNode(3);
 
+            Console.WriteLine(tree.IsSymmetric(tree.root));
         }
     }
 }

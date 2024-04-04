@@ -139,7 +139,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94. Binary Tree Inorder Tra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "100. Same Tree", "100. Same Tree\100. Same Tree.csproj", "{AB2424E7-8292-426A-848D-79F7A84322C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101. Symmetric Tree", "101. Symmetric Tree\101. Symmetric Tree.csproj", "{8C24C46E-5431-44E2-8448-6B13EBB83958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101. Symmetric Tree", "101. Symmetric Tree\101. Symmetric Tree.csproj", "{8C24C46E-5431-44E2-8448-6B13EBB83958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104. Maximum Depth of Binary Tree", "104. Maximum Depth of Binary Tree\104. Maximum Depth of Binary Tree.csproj", "{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -979,6 +981,18 @@ Global
 		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x64.Build.0 = Release|Any CPU
 		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x86.ActiveCfg = Release|Any CPU
 		{8C24C46E-5431-44E2-8448-6B13EBB83958}.Release|x86.Build.0 = Release|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x64.Build.0 = Release|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
