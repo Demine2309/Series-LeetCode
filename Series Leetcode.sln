@@ -141,7 +141,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "100. Same Tree", "100. Same
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101. Symmetric Tree", "101. Symmetric Tree\101. Symmetric Tree.csproj", "{8C24C46E-5431-44E2-8448-6B13EBB83958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104. Maximum Depth of Binary Tree", "104. Maximum Depth of Binary Tree\104. Maximum Depth of Binary Tree.csproj", "{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "104. Maximum Depth of Binary Tree", "104. Maximum Depth of Binary Tree\104. Maximum Depth of Binary Tree.csproj", "{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "108. Convert Sorted Array to Binary Seach Tree", "108. Convert Sorted Array to Binary Seach Tree\108. Convert Sorted Array to Binary Seach Tree.csproj", "{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -993,6 +995,18 @@ Global
 		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x64.Build.0 = Release|Any CPU
 		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x86.ActiveCfg = Release|Any CPU
 		{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}.Release|x86.Build.0 = Release|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x64.Build.0 = Release|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
