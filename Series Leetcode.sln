@@ -143,7 +143,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101. Symmetric Tree", "101.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "104. Maximum Depth of Binary Tree", "104. Maximum Depth of Binary Tree\104. Maximum Depth of Binary Tree.csproj", "{76DA7E5D-CBA8-441D-81A6-E8BBAFB151B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "108. Convert Sorted Array to Binary Seach Tree", "108. Convert Sorted Array to Binary Seach Tree\108. Convert Sorted Array to Binary Seach Tree.csproj", "{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "108. Convert Sorted Array to Binary Seach Tree", "108. Convert Sorted Array to Binary Seach Tree\108. Convert Sorted Array to Binary Seach Tree.csproj", "{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "110. Balanced Binary Tree", "110. Balanced Binary Tree\110. Balanced Binary Tree.csproj", "{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1007,6 +1009,18 @@ Global
 		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x64.Build.0 = Release|Any CPU
 		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC87B7DE-D978-4C07-9DFB-428FBCCB0EB9}.Release|x86.Build.0 = Release|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Debug|x64.Build.0 = Debug|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Debug|x86.Build.0 = Debug|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Release|x64.ActiveCfg = Release|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Release|x64.Build.0 = Release|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Release|x86.ActiveCfg = Release|Any CPU
+		{B80559EC-1DDF-4C7A-A35B-D79CE15E05AA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
