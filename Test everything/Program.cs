@@ -1,23 +1,26 @@
 ﻿using System;
 
-public class Solution
+public class BaseClass
 {
-    public bool IsValid(string s)
+    public BaseClass()
     {
-        
+        Console.WriteLine("BaseClass constructor called.");
     }
 }
 
-class MainClass
+public class DerivedClass : BaseClass
 {
-    static void Main()
+    public DerivedClass() : base()
     {
-        Solution solution = new Solution();
-
-        string s = "({{}})[]";
-
-        bool result = solution.IsValid(s);
-
-        Console.WriteLine(result);
+        Console.WriteLine("DerivedClass constructor called.");
     }
 }
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        DerivedClass obj = new DerivedClass();
+    }
+}
+
