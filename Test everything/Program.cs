@@ -1,18 +1,29 @@
 ﻿using System;
 
-public class BaseClass
+// Base class
+public class Animal
 {
-    public BaseClass()
+    public void Eat()
     {
-        Console.WriteLine("BaseClass constructor called.");
+        Console.WriteLine("Eating...");
     }
 }
 
-public class DerivedClass : BaseClass
+// Derived class
+public class Mammal : Animal
 {
-    public DerivedClass() : base()
+    public void Breathe()
     {
-        Console.WriteLine("DerivedClass constructor called.");
+        Console.WriteLine("Breathing...");
+    }
+}
+
+// Another derived class
+public class Dog : Mammal
+{
+    public void Bark()
+    {
+        Console.WriteLine("Barking...");
     }
 }
 
@@ -20,7 +31,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        DerivedClass obj = new DerivedClass();
+        Dog myDog = new Dog();
+        myDog.Eat();     // From base class
+        myDog.Breathe(); // From intermediate class
+        myDog.Bark();    // From derived class
     }
 }
 
