@@ -2,11 +2,11 @@
 {
     public class Solution
     {
-        public IList<IList<int>> Generate(int numRows)
+        public IList<int> GetRow(int rowIndex)
         {
             IList<IList<int>> triangle = new List<IList<int>>();
 
-            for (int i = 0; i < numRows; i++)
+            for (int i = 0; i < rowIndex + 1; i++)
             {
                 List<int> row = new List<int>();
 
@@ -24,7 +24,7 @@
                 triangle.Add(row);
             }
 
-            return triangle;
+            return triangle[triangle.Count - 1];
         }
     }
 
@@ -34,18 +34,13 @@
         {
             Solution solution = new Solution();
 
-            int numRows = 6;
-            IList<IList<int>> result = solution.Generate(numRows);
+            int rowIndex = 3;
 
-            foreach(var row in result)
+            IList<int> result = solution.GetRow(rowIndex);
+
+            foreach (var num in result)
             {
-                Console.Write("[ ");
-                foreach(var num in row)
-                {
-                    Console.Write(num + " ");
-                }
-
-                Console.Write("] ");
+                Console.Write(num + " ");
             }
         }
     }
@@ -53,10 +48,14 @@
 
 /*
  * Example 1:
-    Input: numRows = 5
-    Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+    Input: rowIndex = 3
+    Output: [1,3,3,1]
 
  * Example 2:
-    Input: numRows = 1
-    Output: [[1]]
- */
+    Input: rowIndex = 0
+    Output: [1]
+
+ * Example 3:
+    Input: rowIndex = 1
+    Output: [1,1]
+*/
